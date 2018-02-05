@@ -11,7 +11,7 @@
 
 // the semi-colon before the function invocation is a safety net against concatenated
 // scripts and/or other plugins that are not closed properly.
-;(function ($, window, undefined) {
+;+function ($, window, undefined) {
 
     /**
      * Detects whether localStorage is both supported and available.
@@ -45,7 +45,7 @@
 
     if (!storageAvailable('localStorage')) {
         window.alert("Atention!\nThis browser does not support Storage API.\nSome functionality might not work properly. :(");
-        console.log("Atention!\nThis browser does not support Storage API.\nSome functionality might not work properly. :(");
+        throw new Error("Atention!\nThis browser does not support Storage API.\nSome functionality might not work properly. :(");
     }
 
     $.shopkart = function (options) {
@@ -302,4 +302,4 @@
 
     });
 
-})(jQuery, window);
+}(jQuery, window);
