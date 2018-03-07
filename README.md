@@ -1,12 +1,11 @@
 # jquery-shopkart
 This little plugin controls basic actions of a shoping cart display widget.
-------------------------------------------------
-     Iniciar com as configurações padrões     
+
+Iniciar com as configurações padrões     
 ------------------------------------------------
 $.shopkart();
 
--------------------------------------------------
-     Atributos data para utilização padrão     
+Atributos data para utilização padrão     
 -------------------------------------------------
  - Para exibir o display que contém a quantidade e o preço total do carrinho,
    deve ser criado um elemento com o atributo data-kart com o valor display:
@@ -49,8 +48,7 @@ $.shopkart();
     Comprar
 </button>
 
---------------------------------------------------
-|     Opções para configurações customizadas     |
+Opções para configurações customizadas
 --------------------------------------------------
  - Customizar o valor da ação dos botões de Adicionar e Remover items:
 kartItemButtonStatus: {
