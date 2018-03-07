@@ -7,16 +7,14 @@ $.shopkart();
 
 Atributos data para utilização padrão     
 -------------------------------------------------
-- Para exibir o display que contém a quantidade e o preço total do carrinho,
-   deve ser criado um elemento com o atributo data-kart com o valor display:
+- Para exibir o display que contém a quantidade e o preço total do carrinho, deve ser criado um elemento com o atributo data-kart com o valor display:
 ```javascript
 <div data-kart="display">
     // Display do conteúdo do carrinho
 </div>
 ```
 
-- Para exibir o total de items do carrinho deve ser criado um elemento dentro
-   do elemento data-kart="display" com o atributo data-kart-total-item:
+- Para exibir o total de items do carrinho deve ser criado um elemento dentro do elemento data-kart="display" com o atributo data-kart-total-item:
 ```javascript
 <div data-kart="display">
     <div data-kart-total-item="0">
@@ -25,8 +23,7 @@ Atributos data para utilização padrão
 </div>
 ```
 
- - Para exibir o preço total do carrinho deve ser criado um elemento dentro
-   do elemento data-kart="display" com o atributo data-kart-total-price:
+ - Para exibir o preço total do carrinho deve ser criado um elemento dentro do elemento data-kart="display" com o atributo data-kart-total-price:
 ```javascript
 <div data-kart="display">
     <div data-kart-total-item="0">
@@ -38,11 +35,10 @@ Atributos data para utilização padrão
 </div>
 ```
 
-- Para manipular o display do carrinho ao adicionar ou remover items,
-   deve-se criar um elemento com três atributos data.
-   1. data-kart="item-button" - Para identificar o botão de cada item.
-   2. data-kart-item-status="[add-item|remove-item]" - Para identificar o status de cada item.
-   3. data-kart-item='{"key":"value"}' - Deverá ser um objeto (json) de chave valor contendo os dados do item.
+- Para manipular o display do carrinho ao adicionar ou remover items, deve-se criar um elemento com três atributos data.
+1. data-kart="item-button" - Para identificar o botão de cada item.
+2. data-kart-item-status="[add-item|remove-item]" - Para identificar o status de cada item.
+4. data-kart-item='{"key":"value"}' - Deverá ser um objeto (json) de chave valor contendo os dados do item.
 ```javascript
 <button
     data-kart="item-button"
