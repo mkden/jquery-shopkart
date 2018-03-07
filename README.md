@@ -2,7 +2,7 @@
 This little plugin controls basic actions of a shoping cart display widget.
 
 ## Iniciar com as configurações padrões
-$.shopkart();
+```javascript $.shopkart();```
 
 ### Atributos data para utilização padrão
 > Para exibir o display que contém a quantidade e o preço total do carrinho, deve ser criado um elemento com o atributo ```javascript data-kart``` com o valor display:
