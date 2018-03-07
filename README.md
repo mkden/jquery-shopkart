@@ -34,9 +34,9 @@ This little plugin controls basic actions of a shoping cart display widget.
 ```
 
 #### Para manipular o display do carrinho ao adicionar ou remover items, deve-se criar um elemento com três atributos data.
-1. ```data-kart="item-button"``` > Para identificar o botão de cada item.
-2. ```data-kart-item-status="[add-item|remove-item]"``` > Para identificar o status de cada item.
-4. ```data-kart-item='{"key":"value"}'``` > Deverá ser um objeto (json) de chave valor contendo os dados do item.
+1. Para identificar o botão de cada item. ```data-kart="item-button"```
+2. Para identificar o status de cada item. ```data-kart-item-status="[add-item|remove-item]"```
+4. Deverá ser um objeto (json) de chave valor contendo os dados do item. ```data-kart-item='{"key":"value"}'```
 ```javascript
 <button
     data-kart="item-button"
