@@ -10,7 +10,7 @@ Atributos data para utilização padrão
  - Para exibir o display que contém a quantidade e o preço total do carrinho,
    deve ser criado um elemento com o atributo data-kart com o valor display:
 
-```
+```javascript
 <div data-kart="display">
     // Display do conteúdo do carrinho
 </div>
@@ -19,11 +19,13 @@ Atributos data para utilização padrão
  - Para exibir o total de items do carrinho deve ser criado um elemento dentro
    do elemento data-kart="display" com o atributo data-kart-total-item:
 
+```javascript
 <div data-kart="display">
     <div data-kart-total-item="0">
         // Total de items
     </div>
 </div>
+```
 
  - Para exibir o preço total do carrinho deve ser criado um elemento dentro
    do elemento data-kart="display" com o atributo data-kart-total-price:
