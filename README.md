@@ -71,7 +71,7 @@ formatTotalItem: function (preco) {
 
 #### Customizar o preço total do carrinho:
 ```javascript
-formatTotalItem: function (preco) {
+formatTotalPrice: function (preco) {
     return total_preco_customizado;
 }
 ```
