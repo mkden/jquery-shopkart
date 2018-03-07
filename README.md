@@ -12,7 +12,7 @@ This little plugin controls basic actions of a shoping cart display widget.
 </div>
 ```
 
-### Para exibir o total de items do carrinho deve ser criado um elemento dentro do elemento ```javascript data-kart="display"``` com o atributo data-kart-total-item:
+### Para exibir o total de items do carrinho deve ser criado um elemento dentro do elemento ```data-kart="display"``` com o atributo ```data-kart-total-item```:
 ```javascript
 <div data-kart="display">
     <div data-kart-total-item="0">
@@ -21,7 +21,7 @@ This little plugin controls basic actions of a shoping cart display widget.
 </div>
 ```
 
-### Para exibir o preço total do carrinho deve ser criado um elemento dentro do elemento ```javascript data-kart="display"``` com o atributo data-kart-total-price:
+### Para exibir o preço total do carrinho deve ser criado um elemento dentro do elemento ```data-kart="display"``` com o atributo ```data-kart-total-price```:
 ```javascript
 <div data-kart="display">
     <div data-kart-total-item="0">
@@ -34,9 +34,9 @@ This little plugin controls basic actions of a shoping cart display widget.
 ```
 
 ### Para manipular o display do carrinho ao adicionar ou remover items, deve-se criar um elemento com três atributos data.
-1. ```javascript data-kart="item-button"``` > Para identificar o botão de cada item.
-2. ```javascript data-kart-item-status="[add-item|remove-item]"``` > Para identificar o status de cada item.
-4. ```javascript data-kart-item='{"key":"value"}'``` > Deverá ser um objeto (json) de chave valor contendo os dados do item.
+1. ```data-kart="item-button"``` > Para identificar o botão de cada item.
+2. ```data-kart-item-status="[add-item|remove-item]"``` > Para identificar o status de cada item.
+4. ```data-kart-item='{"key":"value"}'``` > Deverá ser um objeto (json) de chave valor contendo os dados do item.
 ```javascript
 <button
     data-kart="item-button"
