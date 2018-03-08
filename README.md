@@ -8,7 +8,7 @@ This little plugin controls basic actions of a shoping cart display widget.
 > Para exibir o display que contém a quantidade e o preço total do carrinho, deve ser criado um elemento com o atributo ```data-kart``` com o valor display:
 ```javascript
 <div data-kart="display">
-    // Display do conteúdo do carrinho
+    <!-- Display do conteúdo do carrinho -->
 </div>
 ```
 
@@ -16,7 +16,7 @@ This little plugin controls basic actions of a shoping cart display widget.
 ```javascript
 <div data-kart="display">
     <div data-kart-total-item="0">
-        // Total de items
+        <!-- Total de items -->
     </div>
 </div>
 ```
@@ -25,10 +25,10 @@ This little plugin controls basic actions of a shoping cart display widget.
 ```javascript
 <div data-kart="display">
     <div data-kart-total-item="0">
-        // Total de items
+        <!-- Total de items -->
     </div>
     <div data-kart-total-price="0">
-        // Preço total
+        <!-- Preço total -->
     </div>
 </div>
 ```
