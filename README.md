@@ -8,7 +8,7 @@ Este pequeno plugin controla cria um widget básico de carrinho de compras onlin
 - ```data-kart="display"```: Indica o display que exibirá as informaçes do carrinho
 - ```data-kart-total-item```: Indica a quantidade total de itens no carrinho
 - ```data-kart-total-price```: Indica o valor total do carrinho
-  
+
 #### Estrutura básica
 ```html
 <div data-kart="display">
@@ -22,9 +22,9 @@ Este pequeno plugin controla cria um widget básico de carrinho de compras onlin
 ```
 
 > Para manipular o display do carrinho ao adicionar ou remover items, deve-se criar um elemento com três atributos data.
-1. Para identificar o botão de cada item: ```data-kart="item-button"```
+1. Para identificar o botão de compras de item: ```data-kart="item-button"```
 2. Para identificar o status de cada item: ```data-kart-item-status="[add-item|remove-item]"```
-4. Deverá ser um objeto (json) de chave valor contendo os dados do item:. ```data-kart-item='{"key":"value"}'```
+4. um objeto (json) para armazenar os dados do item: ```data-kart-item='{"key":"value"}'```
 ```html
 <button
     data-kart="item-button"
