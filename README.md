@@ -6,14 +6,14 @@ This little plugin controls basic actions of a shoping cart display widget.
 
 ### Atributos data para utilização padrão
 > Para exibir o display que contém a quantidade e o preço total do carrinho, deve ser criado um elemento com o atributo ```data-kart``` com o valor display:
-```javascript
+```html
 <div data-kart="display">
     <!-- Display do conteúdo do carrinho -->
 </div>
 ```
 
 > Para exibir o total de items do carrinho deve ser criado um elemento dentro do elemento ```data-kart="display"``` com o atributo ```data-kart-total-item```:
-```javascript
+```html
 <div data-kart="display">
     <div data-kart-total-item="0">
         <!-- Total de items -->
@@ -22,7 +22,7 @@ This little plugin controls basic actions of a shoping cart display widget.
 ```
 
 > Para exibir o preço total do carrinho deve ser criado um elemento dentro do elemento ```data-kart="display"``` com o atributo ```data-kart-total-price```:
-```javascript
+```html
 <div data-kart="display">
     <div data-kart-total-item="0">
         <!-- Total de items -->
@@ -37,7 +37,7 @@ This little plugin controls basic actions of a shoping cart display widget.
 1. Para identificar o botão de cada item: ```data-kart="item-button"```
 2. Para identificar o status de cada item: ```data-kart-item-status="[add-item|remove-item]"```
 4. Deverá ser um objeto (json) de chave valor contendo os dados do item:. ```data-kart-item='{"key":"value"}'```
-```javascript
+```html
 <button
     data-kart="item-button"
     data-kart-item-status="add-item"
