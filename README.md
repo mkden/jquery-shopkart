@@ -1,15 +1,15 @@
 # jquery-shopkart
-This little plugin controls basic actions of a shoping cart display widget.
+Este pequeno plugin controla cria um widget básico de carrinho de compras online.
 
 ## Iniciar com as configurações padrões
 ```$.shopkart();```
 
-### Estrutura básica contendo os atributos data necessário para utilização padrão do plugin
+### Atributos data necessário para utilização padrão do plugin
 - ```data-kart="display"```: Indica o display que exibirá as informaçes do carrinho
 - ```data-kart-total-item```: Indica a quantidade total de itens no carrinho
 - ```data-kart-total-price```: Indica o valor total do carrinho
-    
-> Para exibir o preço total do carrinho deve ser criado um elemento dentro do elemento ```data-kart="display"``` com o atributo ```data-kart-total-price```:
+  
+#### Estrutura básica
 ```html
 <div data-kart="display">
     <div data-kart-total-item="0">
