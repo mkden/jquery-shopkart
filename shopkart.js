@@ -5,6 +5,7 @@
  * Shopkart.js v0.3.3
  * Copyright 2018
  * Original author: Eduardo Vinicius Micami
+ * Email eduvnsm@gmail.com
  * Version: 1.0.0
  * Licensed MIT
  */
@@ -153,6 +154,7 @@
 
             toggleButtonItemStatus(oItem, btnStatus);
 
+            console.log(oItem);
             var price = oItem.price ? oItem.price : $kartCurrentButton.data("kart-item-price");
             updateKartDisplay(btnStatus, price);
         });

@@ -29,7 +29,7 @@ Este pequeno plugin controla cria um widget básico de carrinho de compras onlin
 <button
     data-kart="item-button"
     data-kart-item-status="add-item"
-    data-kart-item='{"id": 1, "descricao": "Item 01", "valor": 100}'>
+    data-kart-item='{"id": 1, "descricao": "Item 01", "price": 100}'>
     Comprar
 </button>
 ```
